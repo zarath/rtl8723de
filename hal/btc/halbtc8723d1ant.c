@@ -3579,6 +3579,7 @@ void halbtc8723d1ant_psd_show_antenna_detect_result(IN struct btc_coexist
 	case 11:
 		CL_SPRINTF(cli_buf, BT_TMP_BUF_SIZE,
 			   "(BT is Disabled)");
+		break;
 	case 12:
 		CL_SPRINTF(cli_buf, BT_TMP_BUF_SIZE,
 			   "(BT is available, result from BT");
